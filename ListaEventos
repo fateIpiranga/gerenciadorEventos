@@ -1,0 +1,64 @@
+# gerenciadorEventos
+Gerenciador de Eventos
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ListaEventos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+  <h1 align="center">Relação de Eventos</h1>
+  <p>Lista Principal</p>    
+
+  <a href="CadastroEventos.html" 
+	class="btn btn-primary"><i class="icon-user icon-white" </i>Cadastrar</a>
+  
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>Evento_nome1</th>
+		<th>20/01/2018</th>
+        <th>Tema1</th>
+		<th><a href="http://www.google.com/">Participantes1</a></th>
+		<th><a href="http://www.google.com/">Editar1</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+		<th>2</th>
+        <th>Evento_nome2</th>
+		<th>22/01/2018</th>
+        <th>Tema2</th>
+		<th><a href="http://www.google.com/">Participantes2</a></th>
+		<th><a href="http://www.google.com/">Editar2</a></th>
+      </tr>
+      <tr>
+		<th>3</th>
+        <th>Evento_nome3</th>
+		<th>23/01/2018</th>
+        <th>Tema3</th>
+		<th><a href="http://www.google.com/">Participantes3</a></th>
+		<th><a href="http://www.google.com/">Editar3</a></th>
+      </tr>
+      <tr>
+		<th>4</th>
+        <th>Evento_nome4</th>
+		<th>24/01/2018</th>
+        <th>Tema4</th>
+		<th><a href="http://www.google.com/">Participantes4</a></th>
+		<th><a href="http://www.google.com/">Editar4</a></th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
