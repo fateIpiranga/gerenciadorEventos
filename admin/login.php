@@ -2,7 +2,6 @@
 	$alertMessage = "";
 	error_reporting(E_ALL); 
 	ini_set("display_errors", 1);
-
 	include("../lib/Usuario.php");	
 	if(isset($_GET["f"])){
 		$email = $_POST["email"];	
