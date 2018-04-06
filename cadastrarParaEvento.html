@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Cadastrar-se para o evento</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+
+  <body>
+	<form>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="ListaEventos.html">Eventos</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><br/><br/>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">Evento "nome evento"</h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Eventos</a>
+        </li>
+        <li class="breadcrumb-item active">Contato</li>
+      </ol>
+
+      <!-- Contact Form -->
+      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+      <div class="row">
+		<div class="col-lg mb-4" align="center">
+			<h3>Venha participar deste evento</h3>
+			<h5>no dia 21/05/2018</h5>
+			<p>Teremos a presença da professora e coordenadora Ana Claudia</p>
+				<img src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4559541H5"  width="50%" >
+				<p>Enviaremos mais informações por email.</p><br/>	
+		</div>
+        <div class="col-lg mb-4">
+			<div class="card rounded-0">
+				<div class="card-header">
+					<h3>Cadastre-se aqui</h3>
+				</div>
+				<div class="card-body">
+				  <form name="sentMessage" id="contactForm" novalidate>
+					<div class="control-group form-group">
+					  <div class="controls">
+						<label>Nome:</label>
+						<input type="text" class="form-control" id="name" placeholder="ex: Joao Silva" required>
+						<p class="help-block"></p>
+					  </div>
+					</div>
+					<div class="control-group form-group">
+					  <div class="controls">
+						<label>Telefone:</label>
+						<input type="tel" class="form-control" id="phone" placeholder="(11)9 9999-9999"required>
+					  </div>
+					</div>
+					<div class="control-group form-group">
+					  <div class="controls">
+						<label>Email:</label>
+						<input type="email" class="form-control" id="email" placeholder="Joao@email.com"required>
+					  </div>
+					</div>
+					<div class="control-group form-group">
+					  <div class="controls">
+						<label>Documento:</label>
+						<input type="text" class="form-control" id="cpf" placeholder="555.555.555-55"required>
+					  </div>
+					</div>
+					<div id="success"></div>
+					<!-- For success/fail messages -->
+					<button type="submit" class="btn btn-primary float-right">Enviar</button>
+				  </form>
+				</div>
+			</div>
+		</div>
+
+      </div>
+      <!-- /.row -->
+      <!-- Content Row -->
+      <div class="row">
+        <!-- Map Column -->
+        <div class="col-lg-8 mb-4">
+          <!-- Embedded Google Map -->
+          <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14623.399668699698!2d-46.6079185!3d-23.6097149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2102d3f76afde05d!2sFaculdade+de+Tecnologia+Estadual+-+FATEC+Ipiranga!5e0!3m2!1spt-PT!2sbr!4v1523053236732"></iframe>
+        </div>
+        <!-- Contact Details Column -->
+        <div class="col-lg-4 mb-4">
+          <h3>Local:</h3>
+          <p>
+             R. Frei João, 59
+            <br>Vila Nair, São Paulo
+            <br>
+          </p>
+          <p>
+            <abbr title="Phone">Tel.</abbr>: (11) 5061-0298
+          </p>
+          <p>
+            <abbr title="Email">Email</abbr>:
+            <a href="mailto:name@example.com">contato@fatecipiranga.edu.br.
+            </a>
+          </p>
+          <p>
+            <abbr title="Hours">Data/hora do evento</abbr>: <br/>21 de maio as 15h
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+	</form>
+  </body>
+
+</html>
