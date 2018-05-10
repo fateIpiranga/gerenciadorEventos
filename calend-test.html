@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calend-test</title>
+	
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/datepicker-pt-BR.js"></script>
+    <script>
+	$( function() {
+		$( "#calendario" ).datepicker($.datepicker.regional[ "pt-BR" ]);
+	} );
+	</script>
+</head>
+
+
+ <body>
+ 	Confira uma Data: <div id="calendario"></div>
+ </body>
+</html>
